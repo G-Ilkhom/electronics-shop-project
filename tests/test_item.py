@@ -36,4 +36,3 @@ def test_instantiate_from_csv(test):
 
 def test_string_to_number(test):
     assert type(test.string_to_number('3')) == int
-
